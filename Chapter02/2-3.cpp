@@ -8,7 +8,7 @@ int main(void) {
 	std::cout << "Hello OpenCV " << CV_VERSION << std::endl;
 
 	Mat img;
-	img = imread("C:\\Users\\hwang\\OneDrive\\바탕 화면\\황호선\\대학교\\4학년\\1학기\\3. 캡스톤디자인1\\test_images\\lenna.bmp");
+	img = imread("lenna.bmp");
 
 	if (img.empty()) {
 		cerr << "Image load failed!" << endl;
