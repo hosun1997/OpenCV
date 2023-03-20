@@ -27,10 +27,31 @@
     <ClCompile Include="3-4_RotatedRect.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="3-5_Range.cpp">
+    <ClCompile Include="3-5_1_Range.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="3-6_String.cpp">
+    <ClCompile Include="3-5_2_String.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="3-7_MatOp1.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="3-8_MatOp2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="3-9_MatOp3.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="3-10_MatOp4.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="3-11_MatOp5.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="3-12_MatOp6.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="3-13_MatOp7.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
