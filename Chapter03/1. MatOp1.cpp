@@ -4,7 +4,7 @@
 using namespace cv;
 using namespace std;
 
-int main(void) {
+void MatOp1() {
 	Mat img1; // Empty Matrix
 
 	Mat img2(480, 640, CV_8UC1); // 480행-640열 Matrix, unsigned char, 1-channel
@@ -44,10 +44,19 @@ int main(void) {
 	/*cout << "mat4:\n" << mat4 << endl;*/
 	cout << "mat5:\n" << mat5 << endl;
 
-	return 0;
+	imshow("img4", img4);
+	imshow("img5", img5);
+	imshow("img6", img6);
+
+	waitKey();
+	destroyAllWindows();
+
 }
 
-
+int main() {
+	MatOp1();
+	return 0;
+}
 
 /*
 	Mat 클래스
