@@ -11,3 +11,9 @@ int main(void) {
 
 	return 0;
 }
+
+/*
+	Range 클래스
+	범위 또는 구간을 표현하는 클래스
+	멤버변수 : start, end (이상, 미만]
+*/
