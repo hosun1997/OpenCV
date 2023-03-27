@@ -27,9 +27,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="1. Point.cpp">
-      <Filter>소스 파일\3.1_Basic Class</Filter>
-    </ClCompile>
     <ClCompile Include="2. Size.cpp">
       <Filter>소스 파일\3.1_Basic Class</Filter>
     </ClCompile>
@@ -63,19 +60,22 @@
     <ClCompile Include="6. MatOp6.cpp">
       <Filter>소스 파일\3.2 Mat Class</Filter>
     </ClCompile>
+    <ClCompile Include="1. Point.cpp">
+      <Filter>소스 파일\3.1_Basic Class</Filter>
+    </ClCompile>
     <ClCompile Include="7. MatOp7.cpp">
       <Filter>소스 파일\3.2 Mat Class</Filter>
     </ClCompile>
-    <ClCompile Include="1. Vec.cpp">
+    <ClCompile Include="1. Vector.cpp">
       <Filter>소스 파일\3.3 Vec&amp;Scalar</Filter>
     </ClCompile>
     <ClCompile Include="2. Scalar.cpp">
       <Filter>소스 파일\3.3 Vec&amp;Scalar</Filter>
     </ClCompile>
-    <ClCompile Include="1. InputArray.cpp">
+    <ClCompile Include="2. OutputArray.cpp">
       <Filter>소스 파일\3.4 Input &amp; Output Array Class</Filter>
     </ClCompile>
-    <ClCompile Include="2. OutputArray.cpp">
+    <ClCompile Include="1. InputArray.cpp">
       <Filter>소스 파일\3.4 Input &amp; Output Array Class</Filter>
     </ClCompile>
     <ClCompile Include="3. InputOutputArray.cpp">
