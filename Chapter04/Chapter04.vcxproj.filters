@@ -24,5 +24,16 @@
     <ClCompile Include="main.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="2. Video Input.cpp">
+      <Filter>소스 파일\4.1_카메라와 동영상 파일 다루기</Filter>
+    </ClCompile>
+    <ClCompile Include="3. Camera input Video Output.cpp">
+      <Filter>소스 파일\4.1_카메라와 동영상 파일 다루기</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

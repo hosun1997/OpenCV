@@ -4,38 +4,40 @@
 using namespace cv;
 using namespace std;
 
-void camera_in() {
+void video_in() {
 	VideoCapture cap;
-	cap.open(0);
-	// VideoCapture cap(0);
-
+	cap.open("stopwatch.avi");
+	// VideoCaputure cap("stopwatch.avi");
 	if (!cap.isOpened()) {
-		cerr << "Camera open failed!" << endl;
+		cerr << "Video Open Failed!" << endl;
 		return;
 	}
 
 	cout << "Frame width: " << cvRound(cap.get(CAP_PROP_FRAME_WIDTH)) << endl;
 	cout << "Frame height: " << cvRound(cap.get(CAP_PROP_FRAME_HEIGHT)) << endl;
+	cout << "Frame count: " << cvRound(cap.get(CAP_PROP_FRAME_COUNT)) << endl;
+
+	double fps = cap.get(CAP_PROP_FPS); // 동영상을 적절한 속도로 재생
+	cout << "FPS: " << fps << endl;
+	int delay = cvRound(1000 / fps);
 
 	Mat frame, inversed;
 	while (true) {
 		cap >> frame;
 		if (frame.empty()) {
 			break;
-		} // 영상이 비어있으면 종료
+		}
 
 		inversed = ~frame;
 
 		imshow("frame", frame);
 		imshow("inversed", inversed);
 
-		if (waitKey(10) == 27) { // Esc Key
+		if (waitKey(delay) == 27) {
 			break;
-		} // Esc 키를 누르면 종료
+		}
 	}
 
 	destroyAllWindows();
 
 }
-
-// 카메라 입력 처리하기
