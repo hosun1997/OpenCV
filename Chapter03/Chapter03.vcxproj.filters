@@ -13,46 +13,73 @@
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
+    <Filter Include="소스 파일\3.1_Basic Class">
+      <UniqueIdentifier>{c898993d-1406-4892-a2cd-70c3b0e67731}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\3.2 Mat Class">
+      <UniqueIdentifier>{0f709dd7-ae00-4b8f-a55c-36794973ed33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\3.3 Vec&amp;Scalar">
+      <UniqueIdentifier>{5004b30f-725f-49cd-9fd9-be97f8b291c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\3.4 Input &amp; Output Array Class">
+      <UniqueIdentifier>{e220582f-ffeb-410f-a9aa-0e7b4530fecb}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="3-1_Point.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="1. Point.cpp">
+      <Filter>소스 파일\3.1_Basic Class</Filter>
     </ClCompile>
-    <ClCompile Include="3-2_Size.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="2. Size.cpp">
+      <Filter>소스 파일\3.1_Basic Class</Filter>
     </ClCompile>
-    <ClCompile Include="3-3_Rect.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="3. Rect.cpp">
+      <Filter>소스 파일\3.1_Basic Class</Filter>
     </ClCompile>
-    <ClCompile Include="3-4_RotatedRect.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="4. RotatedRect.cpp">
+      <Filter>소스 파일\3.1_Basic Class</Filter>
     </ClCompile>
-    <ClCompile Include="3-5_1_Range.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="5. Range.cpp">
+      <Filter>소스 파일\3.1_Basic Class</Filter>
     </ClCompile>
-    <ClCompile Include="3-5_2_String.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="6. String.cpp">
+      <Filter>소스 파일\3.1_Basic Class</Filter>
     </ClCompile>
-    <ClCompile Include="3-7_MatOp1.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="1. MatOp1.cpp">
+      <Filter>소스 파일\3.2 Mat Class</Filter>
     </ClCompile>
-    <ClCompile Include="3-8_MatOp2.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="2. MatOp2.cpp">
+      <Filter>소스 파일\3.2 Mat Class</Filter>
     </ClCompile>
-    <ClCompile Include="3-9_MatOp3.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="3. MatOp3.cpp">
+      <Filter>소스 파일\3.2 Mat Class</Filter>
     </ClCompile>
-    <ClCompile Include="3-10_MatOp4.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="4. MatOp4.cpp">
+      <Filter>소스 파일\3.2 Mat Class</Filter>
     </ClCompile>
-    <ClCompile Include="3-11_MatOp5.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="5. MatOp5.cpp">
+      <Filter>소스 파일\3.2 Mat Class</Filter>
     </ClCompile>
-    <ClCompile Include="3-12_MatOp6.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="6. MatOp6.cpp">
+      <Filter>소스 파일\3.2 Mat Class</Filter>
     </ClCompile>
-    <ClCompile Include="3-13_MatOp7.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="7. MatOp7.cpp">
+      <Filter>소스 파일\3.2 Mat Class</Filter>
+    </ClCompile>
+    <ClCompile Include="1. Vec.cpp">
+      <Filter>소스 파일\3.3 Vec&amp;Scalar</Filter>
+    </ClCompile>
+    <ClCompile Include="2. Scalar.cpp">
+      <Filter>소스 파일\3.3 Vec&amp;Scalar</Filter>
+    </ClCompile>
+    <ClCompile Include="1. InputArray.cpp">
+      <Filter>소스 파일\3.4 Input &amp; Output Array Class</Filter>
+    </ClCompile>
+    <ClCompile Include="2. OutputArray.cpp">
+      <Filter>소스 파일\3.4 Input &amp; Output Array Class</Filter>
+    </ClCompile>
+    <ClCompile Include="3. InputOutputArray.cpp">
+      <Filter>소스 파일\3.4 Input &amp; Output Array Class</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

@@ -27,6 +27,11 @@ int main(void) {
 	Mat mat1(2, 2, CV_32FC1, data);
 	cout << "mat1:\n" << mat1 << endl;
 
+	imshow("img1", img1);
+
+	waitKey();
+	destroyAllWindows();
+
 	return 0;
 }
 

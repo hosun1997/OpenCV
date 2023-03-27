@@ -13,7 +13,7 @@ int main(void)
     // pt1 = [5, 10], pt2 = [10, 30]
     Point pt3 = pt1 + pt2; // pt3 = [15, 40]
     Point pt4 = pt1 * 2;   // pt4 = [10, 20]
-    int d1 = pt1.dot(pt2);     // d1 = 350
+    int d1 = pt1.dot(pt2);     // d1 = 350, 내적
     bool b1 = (pt1 == pt2);    // b1 = false
 
     cout << "pt1: " << pt1 << endl;
@@ -25,3 +25,9 @@ int main(void)
 
     return 0;
 }
+
+/*
+    Point_ 클래스
+    2차원 평면 위에 있는 점의 좌표를 표현
+    멤버 변수 : 2차원 좌표를 표현하는 x,y
+*/

@@ -4,7 +4,7 @@
 using namespace cv;
 using namespace std;
 
-int main(void) {
+void MatOp1() {
 	Mat img1; // Empty Matrix
 
 	Mat img2(480, 640, CV_8UC1); // 480행-640열 Matrix, unsigned char, 1-channel
@@ -44,5 +44,25 @@ int main(void) {
 	/*cout << "mat4:\n" << mat4 << endl;*/
 	cout << "mat5:\n" << mat5 << endl;
 
+	imshow("img4", img4);
+	imshow("img5", img5);
+	imshow("img6", img6);
+
+	waitKey();
+	destroyAllWindows();
+
+}
+
+int main() {
+	MatOp1();
 	return 0;
 }
+
+/*
+	Mat 클래스
+	n차원 행렬을 표현하고 한 개 이상의 채널을 가질 수 있다. 정수, 실수, 복소수 등으로 구성된 행렬 또는 벡터를 저장, 크레이스케일 또는 컬러 영상으 저장할 수도 있다.
+	2차원 영상 데이터를 저장하고 처리하는 용도로 가장 많이 사용된다.
+	멤버 변수 : dims | rows | cols | data | type
+
+
+*/

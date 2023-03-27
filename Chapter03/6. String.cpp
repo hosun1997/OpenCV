@@ -20,3 +20,8 @@ int main(void) {
 
 	return 0;
 }
+
+/*
+	cv::String 클래스
+	OpenCV에서 문자열을 저장하고 처리
+*/
