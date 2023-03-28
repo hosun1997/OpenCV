@@ -16,6 +16,9 @@
     <Filter Include="소스 파일\4.1_카메라와 동영상 파일 다루기">
       <UniqueIdentifier>{e790c812-c00c-4073-9ab3-870e22cc0cd8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\4.2_다양한 그리기 함수">
+      <UniqueIdentifier>{a64de51a-8b3d-4813-9e56-07b28c0d273f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1. Camera Input.cpp">
@@ -29,6 +32,18 @@
     </ClCompile>
     <ClCompile Include="3. Camera input Video Output.cpp">
       <Filter>소스 파일\4.1_카메라와 동영상 파일 다루기</Filter>
+    </ClCompile>
+    <ClCompile Include="1. DrawingLine.cpp">
+      <Filter>소스 파일\4.2_다양한 그리기 함수</Filter>
+    </ClCompile>
+    <ClCompile Include="2. DrawingPolys.cpp">
+      <Filter>소스 파일\4.2_다양한 그리기 함수</Filter>
+    </ClCompile>
+    <ClCompile Include="3. DrawingText1.cpp">
+      <Filter>소스 파일\4.2_다양한 그리기 함수</Filter>
+    </ClCompile>
+    <ClCompile Include="4. DrawingText2.cpp">
+      <Filter>소스 파일\4.2_다양한 그리기 함수</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
