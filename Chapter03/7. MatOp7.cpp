@@ -5,7 +5,7 @@ using namespace cv;
 using namespace std;
 
 
-int main(void) {
+void MatOp7() {
 	Mat img1 = imread("lenna.bmp", IMREAD_GRAYSCALE);
 
 	Mat img1f;
@@ -27,7 +27,6 @@ int main(void) {
 
 	mat1.pop_back(2);
 	cout << "mat1 pop_back(2):\n" << mat1 << endl;
-	return 0;
 }
 
 // 크기 및 타입 변환 함수

@@ -4,7 +4,7 @@
 using namespace cv;
 using namespace std;
 
-int main(void) {
+void ScalarOp() {
 	Scalar gray = 128;						// 128 정수 하나를 이용하여 Scalar 클래스 타입의 변수 gray를 초기화 합니다. gray 객체의 val 멤버 변수에는 [128,0,0,0]이 저장됨.
 	cout << "gray: " << gray << endl;
 
@@ -16,13 +16,11 @@ int main(void) {
 	for (int i = 0; i < 4; i++) {
 		cout << yellow[i] << endl;
 	}										// yellow 객체에 저장된 값을 참조하기 위해 [] 연산자 재정의를 사용.
-		
-	
-	return 0;
+
 }
 
 
 /*
-	Scalar 클래스는 채널 이하의 영상에서 픽셀 값을 표현하는 용도로 자주 사용됨.
+	Scalar 클래스는 4채널 이하의 영상에서 픽셀 값을 표현하는 용도로 자주 사용됨.
 	Scalar(밝기) / Scalar(파란색, 녹색, 빨간색) / Scalar(파란색, 녹색, 빨간색, 투명도)
 */

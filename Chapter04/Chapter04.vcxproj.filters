@@ -19,6 +19,15 @@
     <Filter Include="소스 파일\4.2_다양한 그리기 함수">
       <UniqueIdentifier>{a64de51a-8b3d-4813-9e56-07b28c0d273f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\4.3_이벤트 처리">
+      <UniqueIdentifier>{a1ad545c-8481-4cb2-8c24-ce0f817a3d47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\4.4 OpenCV 데이터 파일 입출력">
+      <UniqueIdentifier>{775868aa-257b-4719-9cbb-f90c40a63934}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\4.5 유용한 OpenCV 기능">
+      <UniqueIdentifier>{9d65665e-09d8-4f30-adf1-350bfc8d46ef}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1. Camera Input.cpp">
@@ -45,10 +54,38 @@
     <ClCompile Include="4. DrawingText2.cpp">
       <Filter>소스 파일\4.2_다양한 그리기 함수</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="main.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
+    <ClCompile Include="homework.cpp">
+      <Filter>소스 파일\4.2_다양한 그리기 함수</Filter>
+    </ClCompile>
+    <ClCompile Include="1. Keyboard.cpp">
+      <Filter>소스 파일\4.3_이벤트 처리</Filter>
+    </ClCompile>
+    <ClCompile Include="2. Mouse.cpp">
+      <Filter>소스 파일\4.3_이벤트 처리</Filter>
+    </ClCompile>
+    <ClCompile Include="3. Trackbar.cpp">
+      <Filter>소스 파일\4.3_이벤트 처리</Filter>
+    </ClCompile>
+    <ClCompile Include="1. writeData.cpp">
+      <Filter>소스 파일\4.4 OpenCV 데이터 파일 입출력</Filter>
+    </ClCompile>
+    <ClCompile Include="2. readData.cpp">
+      <Filter>소스 파일\4.4 OpenCV 데이터 파일 입출력</Filter>
+    </ClCompile>
+    <ClCompile Include="1. Mask.cpp">
+      <Filter>소스 파일\4.5 유용한 OpenCV 기능</Filter>
+    </ClCompile>
+    <ClCompile Include="2. Utils.cpp">
+      <Filter>소스 파일\4.5 유용한 OpenCV 기능</Filter>
+    </ClCompile>
+    <ClCompile Include="ch4_homework.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ch4_homework2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="3. Time.cpp">
+      <Filter>소스 파일\4.5 유용한 OpenCV 기능</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

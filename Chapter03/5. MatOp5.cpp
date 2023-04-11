@@ -5,11 +5,11 @@ using namespace cv;
 using namespace std;
 
 
-int main(void) {
+void MatOp5() {
 	Mat img1 = imread("lenna.bmp");
 	if (img1.empty()) {
 		cerr << "파일이 존재하지 않습니다." << endl;
-		return -1;
+		return;
 	}
 
 	cout << "Width: " << img1.cols << endl;
@@ -31,8 +31,6 @@ int main(void) {
 
 	waitKey();
 	destroyAllWindows();
-
-	return 0;
 }
 
 // 행렬 정보 참조하기

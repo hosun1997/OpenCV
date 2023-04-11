@@ -18,7 +18,7 @@ void changeGrayScale(InputArray _src, OutputArray _dest) {
 	}
 }
 
-int main() {
+void InputOutputArrayOp() {
 
 	Mat srcImage = imread("lenna.bmp");
 	if (srcImage.empty()) {
@@ -29,8 +29,6 @@ int main() {
 	changeGrayScale(srcImage, grayImage);
 	imshow("Image", grayImage);
 	waitKey(0);
-
-	return 0;
 
 }
 

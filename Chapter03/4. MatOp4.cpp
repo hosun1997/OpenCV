@@ -5,7 +5,7 @@ using namespace cv;
 using namespace std;
 
 
-int main(void) {
+void MatOp4() {
 	Mat mat1 = Mat::zeros(3, 4, CV_8UC1);	// 0's matrix, unsigned char, 1-channel
 
 	cout << "<mat1> \n" << mat1 << endl;
@@ -33,5 +33,6 @@ int main(void) {
 
 	cout << "Matlterator_반복자 사용 <mat1> \n" << mat1 << endl;
 
-	return 0;
 }
+
+// 행렬의 원소 값 참조 : at()함수, ptr()함수, Matlterator_반복자 사용하기.

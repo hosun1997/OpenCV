@@ -4,12 +4,12 @@
 using namespace cv;
 using namespace std;
 
-int main(void) {
+void MatOp2() {
 	Mat img1 = imread("dog.bmp");
 
 	if (img1.empty()) {
 		cerr << "파일이 존재하지 않습니다!" << endl;
-		return -1;
+		return;
 	}
 
 	Mat img2 = img1;					// 복사 생성자(얕은 복사)
@@ -18,7 +18,7 @@ int main(void) {
 
 	Mat img4 = img1.clone();			// 메모리 공간을 새로 할당하여 픽셀 데이터 전체를 복사 (깊은 복사)
 	Mat img5;
-	img1.copyTo(img5);					// 메모리 공간을 새로 할당하여 픽셀 데이터 전체를 복사 (깊은 복사)
+	img1.copyTo(img5);					// 메모리 공간을 새로 할당하여 픽셀 데이터 전체를 복사 (깊은 복사), img5에 img1 이미지 파일 복사
 
 	img1.setTo(Scalar(0, 255, 255));		// Yellow
 
@@ -30,6 +30,4 @@ int main(void) {
 
 	waitKey();
 	destroyAllWindows();
-
-	return 0;
 }
